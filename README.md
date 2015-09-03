@@ -3,6 +3,7 @@ An image display script designed with progressive enhancement in mind.
 
 **Powered by CSS3 & jQuery**
 
+***
 ### About
 This plugin has been made available on GitHub in an attempt to stop myself from re-writing it with every new project that requires a lightbox.
 
