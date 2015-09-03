@@ -30,3 +30,7 @@ If you would like to open a lightbox with multiple images that the user can chan
 <a href=”image.jpg” data-lightbox=”group1”>click me to view all images in this group</a>
 <a href=”image.jpg” data-lightbox=”group1”>click me to view all images in this group</a>
 ```
+
+***
+### Demo
+Available here: [Demo](http://plugins.ozpital.com/lightbox)
