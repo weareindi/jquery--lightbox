@@ -8,9 +8,9 @@
 	//
 	//
 	
-	$.lightbox.elements			= undefined;
-	$.lightbox.data				= undefined;
-	$.lightbox.dom				= undefined;
+	$.lightbox.elements		= undefined;
+	$.lightbox.data			= undefined;
+	$.lightbox.dom			= undefined;
 	$.lightbox.maxDimensions	= undefined;
 	
 	//
