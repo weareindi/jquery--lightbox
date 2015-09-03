@@ -2,11 +2,15 @@
 *,
 *:before,
 *:after {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   background-repeat: no-repeat;
   -webkit-font-smoothing: antialiased;
   cursor: default;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 html {
@@ -53,7 +57,9 @@ button {
   padding: 0;
   border-radius: 0;
   outline: 0;
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   color: inherit;
   background-color: transparent;
   -webkit-appearance: none;
@@ -61,12 +67,18 @@ button {
 
 code {
   cursor: text;
-  user-select: auto;
+  -webkit-user-select: auto;
+     -moz-user-select: auto;
+      -ms-user-select: auto;
+          user-select: auto;
 }
 
 code * {
   cursor: inherit;
-  user-select: inherit;
+  -webkit-user-select: inherit;
+     -moz-user-select: inherit;
+      -ms-user-select: inherit;
+          user-select: inherit;
 }
 
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cit, code,
@@ -517,7 +529,8 @@ body > main > section#demo > article > ul li a {
   width: 3.5rem;
   height: 3.5rem;
   overflow: hidden;
-  filter: saturate(0%);
+  -webkit-filter: saturate(0%);
+          filter: saturate(0%);
   background-color: #111111;
   background-size: cover;
   background-position: 50% 50%;
@@ -528,7 +541,8 @@ body > main > section#demo > article > ul li a span {
 }
 
 body > main > section#demo > article > ul li a:hover {
-  filter: saturate(100%);
+  -webkit-filter: saturate(100%);
+          filter: saturate(100%);
 }
 
 body > main > section#demo > article:nth-of-type(1) > ul li:nth-of-type(1) a {
@@ -601,6 +615,11 @@ body > main > section#demo > article:nth-of-type(3) > ul li:nth-of-type(5) a {
 
 body > main > section#demo > article:nth-of-type(3) > ul li:nth-of-type(6) a {
   background-image: url(../images/unsplash/thumbs/photo-1423012373122-fff0a5d28cc9.jpg);
+}
+
+body > main > section#download {
+  border-top: 1px solid #CCCCCC;
+  padding-top: 4rem;
 }
 
 /**/
