@@ -1,0 +1,170 @@
+$WebfontPath: "../fonts/sourcecodepro";
+$WebfontName: "SourceCodePro Webfont";
+
+@font-face{
+    font-family: $WebfontName;
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: normal;
+	src: url('#{$WebfontPath}/SourceCodePro-ExtraLight.eot') format('embedded-opentype'),
+         url('#{$WebfontPath}/SourceCodePro-ExtraLight.ttf.woff2') format('woff2'),
+         url('#{$WebfontPath}/SourceCodePro-ExtraLight.otf.woff') format('woff'),
+         url('#{$WebfontPath}/SourceCodePro-ExtraLight.otf') format('opentype'),
+         url('#{$WebfontPath}/SourceCodePro-ExtraLight.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: $WebfontName;
+    font-weight: 200;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('#{$WebfontPath}/SourceCodePro-ExtraLightIt.eot') format('embedded-opentype'),
+         url('#{$WebfontPath}/SourceCodePro-ExtraLightIt.ttf.woff2') format('woff2'),
+         url('#{$WebfontPath}/SourceCodePro-ExtraLightIt.otf.woff') format('woff'),
+         url('#{$WebfontPath}/SourceCodePro-ExtraLightIt.otf') format('opentype'),
+         url('#{$WebfontPath}/SourceCodePro-ExtraLightIt.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: $WebfontName;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('#{$WebfontPath}/SourceCodePro-Light.eot') format('embedded-opentype'),
+         url('#{$WebfontPath}/SourceCodePro-Light.ttf.woff2') format('woff2'),
+         url('#{$WebfontPath}/SourceCodePro-Light.otf.woff') format('woff'),
+         url('#{$WebfontPath}/SourceCodePro-Light.otf') format('opentype'),
+         url('#{$WebfontPath}/SourceCodePro-Light.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: $WebfontName;
+    font-weight: 300;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('#{$WebfontPath}/SourceCodePro-LightIt.eot') format('embedded-opentype'),
+         url('#{$WebfontPath}/SourceCodePro-LightIt.ttf.woff2') format('woff2'),
+         url('#{$WebfontPath}/SourceCodePro-LightIt.otf.woff') format('woff'),
+         url('#{$WebfontPath}/SourceCodePro-LightIt.otf') format('opentype'),
+         url('#{$WebfontPath}/SourceCodePro-LightIt.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: $WebfontName;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('#{$WebfontPath}/SourceCodePro-Regular.eot') format('embedded-opentype'),
+         url('#{$WebfontPath}/SourceCodePro-Regular.ttf.woff2') format('woff2'),
+         url('#{$WebfontPath}/SourceCodePro-Regular.otf.woff') format('woff'),
+         url('#{$WebfontPath}/SourceCodePro-Regular.otf') format('opentype'),
+         url('#{$WebfontPath}/SourceCodePro-Regular.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: $WebfontName;
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('#{$WebfontPath}/SourceCodePro-It.eot') format('embedded-opentype'),
+         url('#{$WebfontPath}/SourceCodePro-It.ttf.woff2') format('woff2'),
+         url('#{$WebfontPath}/SourceCodePro-It.otf.woff') format('woff'),
+         url('#{$WebfontPath}/SourceCodePro-It.otf') format('opentype'),
+         url('#{$WebfontPath}/SourceCodePro-It.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: $WebfontName;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('#{$WebfontPath}/SourceCodePro-Medium.eot') format('embedded-opentype'),
+         url('#{$WebfontPath}/SourceCodePro-Medium.ttf.woff2') format('woff2'),
+         url('#{$WebfontPath}/SourceCodePro-Medium.otf.woff') format('woff'),
+         url('#{$WebfontPath}/SourceCodePro-Medium.otf') format('opentype'),
+         url('#{$WebfontPath}/SourceCodePro-Medium.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: $WebfontName;
+    font-weight: 500;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('EOT/SourceCodePro-MediumIt.eot') format('embedded-opentype'),
+         url('WOFF2/OTF/SourceCodePro-MediumIt.ttf.woff2') format('woff2'),
+         url('WOFF/OTF/SourceCodePro-MediumIt.otf.woff') format('woff'),
+         url('OTF/SourceCodePro-MediumIt.otf') format('opentype'),
+         url('TTF/SourceCodePro-MediumIt.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: $WebfontName;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('EOT/SourceCodePro-Semibold.eot') format('embedded-opentype'),
+         url('WOFF2/OTF/SourceCodePro-Semibold.ttf.woff2') format('woff2'),
+         url('WOFF/OTF/SourceCodePro-Semibold.otf.woff') format('woff'),
+         url('OTF/SourceCodePro-Semibold.otf') format('opentype'),
+         url('TTF/SourceCodePro-Semibold.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: $WebfontName;
+    font-weight: 600;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('#{$WebfontPath}/SourceCodePro-SemiboldIt.eot') format('embedded-opentype'),
+         url('#{$WebfontPath}/SourceCodePro-SemiboldIt.ttf.woff2') format('woff2'),
+         url('#{$WebfontPath}/SourceCodePro-SemiboldIt.otf.woff') format('woff'),
+         url('#{$WebfontPath}/SourceCodePro-SemiboldIt.otf') format('opentype'),
+         url('#{$WebfontPath}/SourceCodePro-SemiboldIt.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: $WebfontName;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('#{$WebfontPath}/SourceCodePro-Bold.eot') format('embedded-opentype'),
+         url('#{$WebfontPath}/SourceCodePro-Bold.ttf.woff2') format('woff2'),
+         url('#{$WebfontPath}/SourceCodePro-Bold.otf.woff') format('woff'),
+         url('#{$WebfontPath}/SourceCodePro-Bold.otf') format('opentype'),
+         url('#{$WebfontPath}/SourceCodePro-Bold.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: $WebfontName;
+    font-weight: 700;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('#{$WebfontPath}/SourceCodePro-BoldIt.eot') format('embedded-opentype'),
+         url('#{$WebfontPath}/SourceCodePro-BoldIt.ttf.woff2') format('woff2'),
+         url('#{$WebfontPath}/SourceCodePro-BoldIt.otf.woff') format('woff'),
+         url('#{$WebfontPath}/SourceCodePro-BoldIt.otf') format('opentype'),
+         url('#{$WebfontPath}/SourceCodePro-BoldIt.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: $WebfontName;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('#{$WebfontPath}/SourceCodePro-Black.eot') format('embedded-opentype'),
+         url('#{$WebfontPath}/SourceCodePro-Black.ttf.woff2') format('woff2'),
+         url('#{$WebfontPath}/SourceCodePro-Black.otf.woff') format('woff'),
+         url('#{$WebfontPath}/SourceCodePro-Black.otf') format('opentype'),
+         url('#{$WebfontPath}/SourceCodePro-Black.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: $WebfontName;
+    font-weight: 900;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('#{$WebfontPath}/SourceCodePro-BlackIt.eot') format('embedded-opentype'),
+         url('#{$WebfontPath}/SourceCodePro-BlackIt.ttf.woff2') format('woff2'),
+         url('#{$WebfontPath}/SourceCodePro-BlackIt.otf.woff') format('woff'),
+         url('#{$WebfontPath}/SourceCodePro-BlackIt.otf') format('opentype'),
+         url('#{$WebfontPath}/SourceCodePro-BlackIt.ttf') format('truetype');
+}

@@ -1,0 +1,122 @@
+/* _reset.scss */
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+	-webkit-font-smoothing: antialiased;
+	cursor: default;
+	user-select: none;
+}
+
+html {
+	height: 100%;
+	overflow-y: scroll;
+}
+
+html, body {
+	float: left;
+	clear: both;
+	width: 100%;
+	border: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+	line-height: 1em;
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	scroll-behavior: smooth;
+}
+
+div, span, object, iframe, img, table, caption, thead, tbody,
+tfoot, tr, tr, td, article, aside, canvas, details, figure, hgroup, menu,
+nav, footer, header, section, summary, mark, audio, video {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+code,
+select,
+input,
+textarea,
+button {
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+	text-transform: inherit;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	border-radius: 0;
+	outline: 0;
+	appearance: none;
+    color: inherit;
+	background-color: transparent;
+	-webkit-appearance: none;
+}
+
+code {
+	cursor: text;
+	user-select: auto;
+	* {
+		cursor: inherit;
+		user-select: inherit;
+	}
+}
+
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cit, code,
+del, dfn, em, ins, q, samp, small, strong, sub, sup, b, i, hr, dl, dt, dd,
+ol, ul, li, fieldset, legend, label {
+	font-weight: inherit;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+}
+
+article, aside, canvas, figure, figure img, figcaption, hgroup,
+footer, header, nav, section, audio, video {
+	display: block;
+}
+
+table {
+	
+	border-collapse: separate;
+	border-spacing: 0;
+	
+	caption, th, td {
+		text-align: left;
+		vertical-align: middle;
+	}
+	
+}
+
+a,
+a:visited,
+a:active,
+a:hover,
+button {
+	
+    text-decoration: none;
+    color: inherit;
+	cursor: pointer;
+	
+	* {
+		cursor: inherit;
+	}
+	
+}
+
+a img {
+	border: 0;
+}
+
+:focus {
+	outline: 0;
+}

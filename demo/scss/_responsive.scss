@@ -1,0 +1,83 @@
+@media screen and (max-width: 980px) {
+	
+	body {
+	
+		padding-top: 6rem;	
+		padding-right: 3rem;	
+		padding-bottom: 10rem;	
+		padding-left: 3rem;
+		
+	}
+
+}
+
+@media screen and (max-width: 900px) {
+	
+	body {
+	
+		padding-right: 3rem;
+		padding-left: 3rem;
+		
+		& > main {
+		
+			& > section {
+			
+				& > p {
+					width: 100%;
+				}
+			
+			}
+				
+			& > section#about {
+				
+				padding: 2rem;
+			
+				& > p {
+					width: 100%;
+				}
+				
+			}
+		
+		}
+		
+	}
+
+}
+
+@media screen and (max-width: 800px) {
+	
+	html,
+	body {
+		
+		font-size: 15px;
+	
+	}	
+	
+	body {
+	
+		padding-right: 1.5rem;
+		padding-left: 1.5rem;
+		
+		& > main {
+				
+			& > section#about {
+				
+				padding: 1.5rem;
+				
+			}
+				
+			& > section#demo {
+				
+				& > article {
+				
+					
+				
+				}
+				
+			}
+		
+		}
+		
+	}
+
+}

@@ -1,0 +1,245 @@
+div#lightbox,
+div#lightbox *,
+div#lightbox *:before,
+div#lightbox *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 0;
+  background: none;
+  background-repeat: no-repeat;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: default;
+}
+
+div#lightbox button,
+div#lightbox * button,
+div#lightbox *:before button,
+div#lightbox *:after button {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+div#lightbox button *,
+div#lightbox * button *,
+div#lightbox *:before button *,
+div#lightbox *:after button * {
+  cursor: inherit;
+}
+
+div#lightbox button:focus,
+div#lightbox * button:focus,
+div#lightbox *:before button:focus,
+div#lightbox *:after button:focus {
+  outline: 0;
+}
+
+div#lightbox {
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+div#lightbox.visible {
+  display: block;
+}
+
+div#lightbox div.lightbox_bg {
+  z-index: 1001;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.95);
+}
+
+div#lightbox div.lightbox_nav {
+  z-index: 1003;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+}
+
+div#lightbox div.lightbox_nav button {
+  display: inline-block;
+  vertical-align: top;
+  width: 4rem;
+  height: 4rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  opacity: 0.75;
+}
+
+div#lightbox div.lightbox_nav button span.icon {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-position: 50% 50%;
+  background-size: auto 70%;
+}
+
+div#lightbox div.lightbox_nav button span.text {
+  display: none;
+}
+
+div#lightbox div.lightbox_nav button:hover {
+  opacity: 1;
+}
+
+div#lightbox div.lightbox_nav button + button {
+  margin-left: 0.5rem;
+}
+
+div#lightbox div.lightbox_nav button.lightbox_previous span.icon {
+  background-image: url(../images/lightbox/button_previous.svg);
+}
+
+div#lightbox div.lightbox_nav button.lightbox_next span.icon {
+  background-image: url(../images/lightbox/button_next.svg);
+}
+
+div#lightbox div.lightbox_nav + div.lightbox_container {
+  padding-bottom: 9rem;
+}
+
+div#lightbox div.lightbox_container {
+  z-index: 1002;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 3rem;
+}
+
+div#lightbox div.lightbox_container div.lightbox_window {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+div#lightbox div.lightbox_container div.lightbox_window div.lightbox_frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  height: auto;
+  min-width: 3rem;
+  min-height: 3rem;
+  overflow: hidden;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+div#lightbox div.lightbox_container div.lightbox_window div.lightbox_frame img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 3rem;
+  max-height: 3rem;
+  opacity: 0;
+  -webkit-transition-property: opacity;
+          transition-property: opacity;
+  -webkit-transition-duration: 0ms;
+          transition-duration: 0ms;
+}
+
+div#lightbox div.lightbox_container div.lightbox_window div.lightbox_frame img.visible {
+  opacity: 1;
+  -webkit-transition-duration: 1000ms;
+          transition-duration: 1000ms;
+}
+
+div#lightbox div.lightbox_container div.lightbox_window div.lightbox_frame button.lightbox_close {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  width: 3rem;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.75);
+  opacity: 0;
+  -webkit-transition-property: opacity;
+          transition-property: opacity;
+  -webkit-transition-delay: 0ms;
+          transition-delay: 0ms;
+  -webkit-transition-duration: 0ms;
+          transition-duration: 0ms;
+}
+
+div#lightbox div.lightbox_container div.lightbox_window div.lightbox_frame button.lightbox_close.visible {
+  opacity: 1;
+  -webkit-transition-delay: 500ms;
+          transition-delay: 500ms;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+div#lightbox div.lightbox_container div.lightbox_window div.lightbox_frame button.lightbox_close span.icon {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/lightbox/button_close.svg);
+  background-position: 50% 50%;
+  background-size: auto 35%;
+}
+
+div#lightbox div.lightbox_container div.lightbox_window div.lightbox_frame button.lightbox_close span.text {
+  display: none;
+}
+
+div#lightbox div.lightbox_container div.lightbox_window div.lightbox_frame button.lightbox_close:hover {
+  background-color: black;
+}
+
+div#lightbox div.lightbox_container div.lightbox_window div.lightbox_ajax {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 2rem;
+  height: 2rem;
+  overflow: hidden;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-image: url(../images/lightbox/ajax_loader.svg);
+  background-size: 100% 100%;
+  opacity: 0;
+  -webkit-transition-property: opacity;
+          transition-property: opacity;
+  -webkit-transition-duration: 2000ms;
+          transition-duration: 2000ms;
+}
+
+div#lightbox div.lightbox_container div.lightbox_window div.lightbox_ajax.visible {
+  opacity: 1;
+}
+
+@media screen and (max-width: 420px), screen and (max-height: 420px) {
+  div#lightbox div.lightbox_nav button {
+    width: 3rem;
+    height: 3rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+  div#lightbox div.lightbox_nav button span.icon {
+    background-size: auto 1.5rem;
+  }
+  div#lightbox div.lightbox_nav + div.lightbox_container {
+    padding-bottom: 3.5rem;
+  }
+  div#lightbox div.lightbox_container {
+    padding: 0.5rem;
+  }
+}

@@ -1,0 +1,494 @@
+@import 'reset';
+@import 'webfonts';
+
+/* screen.scss */
+
+html,
+body {
+	
+	font-family: 'Raleway Webfont';
+	font-weight: 300;
+	font-style: normal;
+	
+	color: #111111;
+	background-color: #FFFFFF;
+
+}
+
+body {
+	
+	padding-top: 6rem;	
+	padding-right: 6rem;	
+	padding-bottom: 10rem;	
+	padding-left: 6rem;
+
+	& > header {
+		
+		float: left;
+		clear: both;
+		width: 100%;
+		
+		h1 {
+			
+			float: left;
+			clear: both;
+			width: auto;
+		
+			a {
+			
+				float: left;
+				clear: both;
+				width: 7rem;
+				height: 1.4rem;
+				
+				text-indent: -10000rem;
+				
+				background-image: url(../images/ozpital_logo.svg);
+				background-size: 100% 100%;
+			
+			}
+		
+		}
+	
+	}
+
+	& > main {
+		
+		float: left;
+		clear: both;
+		width: 100%;
+		
+		margin-top: 3rem;
+
+		& > header {
+		
+			float: left;
+			clear: both;
+			width: 100%;
+			
+			h2 {
+		
+				float: left;
+				clear: both;
+				width: 100%;
+				
+				font-size: 2rem;
+				line-height: 1em;
+				
+				text-transform: uppercase;
+				
+			}
+			
+			p {
+		
+				float: left;
+				clear: both;
+				width: 100%;
+				
+				line-height: 1.8em;
+		
+				margin-top: 1rem;
+			
+			}
+
+		}
+
+		& > section {
+		
+			float: left;
+			clear: both;
+			width: 100%;
+			
+			margin-top: 4rem;
+
+			& > header {
+
+				float: left;
+				clear: both;
+				width: 100%;
+				
+				& ~ header {
+					margin-top: 4rem;
+				}
+
+				h2 {
+		
+					float: left;
+					clear: both;
+					width: 100%;
+					
+					font-weight: 600;
+					font-size: 1.4rem;
+					line-height: 1em;
+
+					text-transform: uppercase;
+
+				}
+
+				h3 {
+		
+					float: left;
+					clear: both;
+					width: 100%;
+					
+					font-weight: 600;
+
+					text-transform: uppercase;
+
+				}
+
+			}
+			
+			& > p {
+				
+				float: left;
+				clear: both;
+				width: 40rem;
+				
+				line-height: 1.8em;
+				
+				margin-top: 1.6rem;
+				
+				strong {
+				
+					font-weight: 600;
+					
+				}
+				
+			}
+			
+			& > code {
+				
+				float: left;
+				clear: both;
+				width: auto;
+				
+				font-family: "SourceCodePro Webfont";
+				font-weight: 500;
+				font-size: 0.9rem;
+				line-height: 1.8em;
+				
+				text-align: center;
+				
+				padding-top: 1rem;				
+				padding-right: 2rem;				
+				padding-bottom: 1rem;				 
+				padding-left: 2rem;
+				
+				margin-top: 1.6rem;
+			
+				background-color: #FFFFBF;
+				
+				em {
+					font-weight: 300;
+					font-style: normal;
+				}
+			
+			}
+
+		}
+
+		& > section#about {
+			
+			padding: 3rem;
+			
+			background-color: #EEEEEE;
+			
+			p {
+				width: 36rem;
+			}
+
+		}
+
+		& > section#usage {
+			
+			border-top: 1px solid #CCCCCC;
+			padding-top: 4rem;
+
+		}
+
+		& > section#demo {
+			
+			border-top: 1px solid #CCCCCC;
+			padding-top: 4rem;
+			
+			& > article {
+				
+				float: left;
+				clear: none;
+				width: auto;
+				
+				margin-top: 1.5rem;
+				
+				& ~ article {
+					margin-left: 4rem;
+				}
+				
+				header {
+				
+					float: left;
+					clear: both;
+					width: 100%;
+				
+					h4 {
+				
+						float: left;
+						clear: both;
+						width: 100%;
+					
+					}
+				
+				}
+				
+				& > ul {
+					
+					float: left;
+					clear: both;
+					width: 11.5rem;
+				
+					margin-top: 1.5rem;
+					
+					list-style: none;
+				
+					li {
+						
+						float: left;
+						clear: none;
+						width: auto;
+						
+						& ~ li {
+							margin-left: 0.5rem;
+						}
+						
+						&:nth-of-type(1n+4) {
+							margin-top: 0.5rem;
+						}
+						
+						&:nth-of-type(4n+4) {
+							margin-left: 0rem;
+						}
+				
+						a {
+
+							float: left;
+							clear: none;
+							width: 3.5rem;
+							height: 3.5rem;
+
+							overflow: hidden;
+							
+							filter: saturate(0%);
+							
+							background-color: #111111;
+							background-size: cover;
+							background-position: 50% 50%;
+							
+							span {
+								display: none;
+							}
+
+							&:hover {
+								filter: saturate(100%);
+							}
+
+						}
+					
+					}
+				
+				}
+				
+				&:nth-of-type(1) {
+					
+					& > ul {
+						
+						li {
+
+							&:nth-of-type(1) {
+								
+								a {
+									background-image: url(../images/unsplash/thumbs/photo-1440637475816-2e8bf1d4b6f3.jpg);
+								}
+								
+							}
+
+							&:nth-of-type(2) {
+								
+								a {
+									background-image: url(../images/unsplash/thumbs/photo-1439996822684-81bde34914e4.jpg);
+								}
+
+							}
+
+							&:nth-of-type(3) {
+								
+								a {
+									background-image: url(../images/unsplash/thumbs/photo-1440772578301-f68d7e44e041.jpg);
+								}
+
+							}
+
+							&:nth-of-type(4) {
+								
+								a {
+									background-image: url(../images/unsplash/thumbs/photo-1440796971131-c1796c8c4493.jpg);
+								}
+
+							}
+
+							&:nth-of-type(5) {
+								
+								a {
+									background-image: url(../images/unsplash/thumbs/photo-1440855390831-d225be8c25b8.jpg);
+								}
+
+							}
+
+							&:nth-of-type(6) {
+								
+								a {
+									background-image: url(../images/unsplash/thumbs/photo-1440020143730-090579c4d53c.jpg);
+								}
+
+							}
+							
+						}
+						
+					}
+				
+				}
+				
+				&:nth-of-type(2) {
+					
+					& > ul {
+						
+						li {
+
+							&:nth-of-type(1) {
+								
+								a {
+									background-image: url(../images/unsplash/thumbs/photo-1440765367067-58947eeae972.jpg);
+								}
+								
+							}
+
+							&:nth-of-type(2) {
+								
+								a {
+									background-image: url(../images/unsplash/thumbs/photo-1440631085373-8330ddbd843e.jpg);
+								}
+
+							}
+
+							&:nth-of-type(3) {
+								
+								a {
+									background-image: url(../images/unsplash/thumbs/photo-1440857999549-a01a52a3bfcb.jpg);
+								}
+
+							}
+
+							&:nth-of-type(4) {
+								
+								a {
+									background-image: url(../images/unsplash/thumbs/photo-1439192762818-e56f8ea12296.jpg);
+								}
+
+							}
+
+							&:nth-of-type(5) {
+								
+								a {
+									background-image: url(../images/unsplash/thumbs/photo-1440617711314-de01e4cddec6.jpg);
+								}
+
+							}
+
+							&:nth-of-type(6) {
+								
+								a {
+									background-image: url(../images/unsplash/thumbs/photo-1439464907536-81696abd6b88.jpg);
+								}
+
+							}
+							
+						}
+						
+					}
+				
+				}
+				
+				&:nth-of-type(3) {
+					
+					& > ul {
+						
+						li {
+
+							&:nth-of-type(1) {
+								
+								a {
+									background-image: url(../images/unsplash/thumbs/bw-room.jpg);
+								}
+								
+							}
+
+							&:nth-of-type(2) {
+								
+								a {
+									background-image: url(../images/unsplash/thumbs/NV0eHnNkQDHA21GC3BAJ_Paris%20Louvr.jpg);
+								}
+
+							}
+
+							&:nth-of-type(3) {
+								
+								a {
+									background-image: url(../images/unsplash/thumbs/open-door.jpg);
+								}
+
+							}
+
+							&:nth-of-type(4) {
+								
+								a {
+									background-image: url(../images/unsplash/thumbs/photo-1422558044352-896cd9799885.jpg);
+								}
+
+							}
+
+							&:nth-of-type(5) {
+								
+								a {
+									background-image: url(../images/unsplash/thumbs/photo-1422665717225-1a37f226c92a.jpg);
+								}
+
+							}
+
+							&:nth-of-type(6) {
+								
+								a {
+									background-image: url(../images/unsplash/thumbs/photo-1423012373122-fff0a5d28cc9.jpg);
+								}
+
+							}
+							
+						}
+						
+					}
+				
+				}
+			
+			}
+
+		}
+	
+	}
+
+}
+
+/**/
+/**/
+/**/
+
+@import 'responsive';
+
+
