@@ -36,4 +36,4 @@ If you would like to open a lightbox with multiple images that the user can chan
 
 ***
 ### Demo
-Available here: [Live Demo](http://plugins.ozpital.com/lightbox)
+Available here: [Live Demo](http://ozpital.com/plugins/lightbox/demo/)
